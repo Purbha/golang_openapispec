@@ -1,11 +1,11 @@
 openapi: 3.0.0
 info:
-  title: Mock Target API
+  title: Go Local API
   version: 1.0.0
 paths:
   /:
     get:
-      description: View a personalized greeting for the specified or guest user.
+      description: Menampilkan data API GO.
       responses:
         "200":
           description: Success
